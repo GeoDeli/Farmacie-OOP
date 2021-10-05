@@ -275,31 +275,31 @@ DefaultComboBoxModel  model1=new DefaultComboBoxModel();
  
         //afiseaza cantitatile de medicament din orasul Bucuresti
     private void RBBucurestiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBBucurestiActionPerformed
-       CautaInOras("\"Bucuresti\"");
+       CautaInOras("Bucuresti");
     }//GEN-LAST:event_RBBucurestiActionPerformed
 
     private void RBTimisoaraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBTimisoaraActionPerformed
-     CautaInOras("\"Timisoara\"");
+     CautaInOras("Timisoara");
     }//GEN-LAST:event_RBTimisoaraActionPerformed
 
     private void RBClujActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBClujActionPerformed
-         CautaInOras("\"Cluj\"");
+         CautaInOras("Cluj");
     }//GEN-LAST:event_RBClujActionPerformed
 
     private void RBIasiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBIasiActionPerformed
-         CautaInOras("\"Iasi\"");
+         CautaInOras("Iasi");
     }//GEN-LAST:event_RBIasiActionPerformed
 
     private void MedicamentPerOrasPopupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent evt) {//GEN-FIRST:event_MedicamentPerOrasPopupMenuWillBecomeInvisible
         // TODO add your handling code here:
         if(RBBucuresti.isSelected())
-              CautaInOras("\"Bucuresti\"");
+              CautaInOras("Bucuresti");
         if(RBTimisoara.isSelected())
-              CautaInOras("\"Timisoara\"");
+              CautaInOras("Timisoara");
         if(RBCluj.isSelected())
-            CautaInOras("\"Cluj\"");
+            CautaInOras("Cluj");
         if(RBIasi.isSelected())
-              CautaInOras("\"Iasi\"");
+              CautaInOras("Iasi");
     }//GEN-LAST:event_MedicamentPerOrasPopupMenuWillBecomeInvisible
 
     //functia cauta in orasul trimis ca si parametru medicamentul si cantitatile acestuia
