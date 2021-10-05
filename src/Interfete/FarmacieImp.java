@@ -88,7 +88,7 @@ public class FarmacieImp implements FarmacieInt {
         try {      
          Connection    con=Conectare.getConnection();
        
-       String query="Select * from `farmacie-tab` where Nume=\""+nume+"\" and Oras="+Oras; //querry
+       String query="Select * from `farmacie-tab` where Nume=\""+nume+"\" and Oras=\""+Oras+"\""; //querry
          Statement statement;  
                 statement = con.createStatement();
          ResultSet resultSet = statement.executeQuery(query); 
